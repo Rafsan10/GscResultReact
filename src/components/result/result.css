@@ -1,0 +1,52 @@
+td {
+  text-align: center;
+  border-radius: 10px;
+  border-top: 1px solid;
+  border-right: 1px solid;
+}
+table {
+  border-collapse: collapse;
+  margin: auto;
+  background-color: rgb(56, 56, 56);
+  color: rgb(255, 250, 210);
+  box-shadow: 2px 3px 5px 0px rgba(138, 138, 138, 0.75);
+  animation-name: table;
+  animation-duration: 0.3s;
+}
+
+@keyframes table {
+  from {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+  to {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+.sub {
+  padding: 5px;
+  text-align: left;
+}
+
+.sub-head td {
+  padding: 5px;
+}
+
+thead > tr > th {
+  padding: 5px;
+}
+
+.Pass {
+  color: green !important;
+}
+
+.Fail {
+  color: red !important;
+}
+
+#invalid {
+  color: rgb(59, 0, 0);
+  text-align: center;
+}
